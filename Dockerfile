@@ -2,7 +2,7 @@ FROM amazonlinux:latest
 
 ENV \
     SWAMP_VERSION=0.2 \
-    TERRAFORM_VERSION=0.10.6
+    TERRAFORM_VERSION=0.10.7
 
 WORKDIR /workspace
 
