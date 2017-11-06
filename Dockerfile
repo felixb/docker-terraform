@@ -7,7 +7,7 @@ ENV \
 WORKDIR /workspace
 
 # install aws cli
-RUN yum install -y python-pip groff less unzip \
+RUN yum install -y python-pip groff less unzip jq \
  && pip-python install --upgrade awscli \
  && yum remove -y python-pip \
  && yum clean all \
