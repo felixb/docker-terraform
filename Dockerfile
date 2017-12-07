@@ -1,8 +1,8 @@
 FROM amazonlinux:latest
 
 ENV \
-    SWAMP_VERSION=0.3 \
-    TERRAFORM_VERSION=0.11.0
+    SWAMP_VERSION=0.4 \
+    TERRAFORM_VERSION=0.11.1
 
 WORKDIR /workspace
 
